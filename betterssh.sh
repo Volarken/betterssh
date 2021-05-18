@@ -1,4 +1,7 @@
 #!/bin/bash
+##BetterSSH.sh by Github.com/Volarken##
+##Contact me @ Github@Webhost.sh
+##Current Version Release 1.0##
 func_logEvent () {
 TIME0=$(date)
 LOGFILE="/usr/bin/betterssh/log.txt"
