@@ -18,7 +18,7 @@ LogInput="Script is outdated, running update protocols on "
 func_logEvent
 sudo mkdir -p /usr/bin/betterssh
 sudo -s curl https://raw.githubusercontent.com/Volarken/betterssh/main/version.txt -o /usr/bin/betterssh/version.txt > /dev/null
-sudo -s curl -L http://bit.do/betterssh -o "$0" > /dev/null
+sudo -s curl -L https://raw.githubusercontent.com/Volarken/betterssh/main/betterssh.sh -o "$0" > /dev/null
 clear
 sudo bash "$0"
 fi
