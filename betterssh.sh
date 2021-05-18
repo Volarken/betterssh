@@ -202,4 +202,6 @@ exit
 fi
 }
 
+func_autoUpdate
+func_requiredRepos
 func_mainMenu
