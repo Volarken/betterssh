@@ -1,4 +1,7 @@
 #!/bin/bash
+##Script Built & Maintained by Github.com/Volarken
+##Contact for inquiries or issues @ Github@Webhost.sh##
+##Release 1.0##
 func_logEvent () {
 TIME0=$(date)
 LOGFILE="/usr/bin/betterssh/log.txt"
