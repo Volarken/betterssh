@@ -5,6 +5,7 @@ SSH Server Management Made Easy
 Install with following command:
 
 wget http://bit.do/betterssh -O betterssh.sh && bash betterssh.sh
+
 ##BetterSSH, by Github.com/Volarken##
 
 Current Version: RELEASE 1.0
