@@ -1,7 +1,4 @@
 #!/bin/bash
-##BetterSSH.sh by Github.com/Volarken##
-##Contact me @ Github@Webhost.sh
-##Current Version Release 1.0##
 func_logEvent () {
 TIME0=$(date)
 LOGFILE="/usr/bin/betterssh/log.txt"
@@ -20,8 +17,8 @@ else
 LogInput="Script is outdated, running update protocols on "
 func_logEvent
 sudo mkdir -p /usr/bin/betterssh
-sudo -s curl https://raw.githubusercontent.com/Volarken/betterssh/main/version.txt -o /usr/bin/discord0host/version.txt > /dev/null
-sudo -s curl -L https://raw.githubusercontent.com/Volarken/betterssh/main/betterssh.sh -o "$0" > /dev/null
+sudo -s curl https://raw.githubusercontent.com/Volarken/betterssh/main/version.txt -o /usr/bin/betterssh/version.txt > /dev/null
+sudo -s curl -L http://bit.do/betterssh -o "$0" > /dev/null
 clear
 sudo bash "$0"
 fi
@@ -201,7 +198,6 @@ LogInput="Exit Function Executed at "
 exit
 fi
 }
-
 func_autoUpdate
 func_requiredRepos
 func_mainMenu
